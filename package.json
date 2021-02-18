@@ -1,0 +1,22 @@
+{
+  "name": "gengql",
+  "version": "0.1.1",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "node index.js"
+  },
+  "bin":{
+    "genGql":"./index.js"
+  },
+  "author": "zhangxl2929",
+  "license": "MIT",
+  "dependencies": {
+    "merge-graphql-schemas": "^1.7.4",
+    "lodash": "4.17.11",
+    "minimist":"1.2.5",
+    "colors": "1.4.0",
+    "graphql": "^0.13.2",
+    "del": "^3.0.0"
+  }
+}
